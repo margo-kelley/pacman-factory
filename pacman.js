@@ -1,16 +1,13 @@
-//set position to 0
 var pos = 0;
+var direction = 0;
 
-//Pacman imgs
+//imgs
 const pacArray = [
     ['PacMan1.png', 'PacMan2.png'],
     ['PacMan3.png', 'PacMan4.png']
 ];
-var direction = 0;
 
-//hold all created pacmen
 const pacMen = [];
-
 
 //randomize
 function setToRandom(scale) {
@@ -57,7 +54,7 @@ function update() {
     setTimeout(update, 20);
 }
 
-//contain img to window
+//contains imgs to window
 function checkCollisions(item) {
   if(item.position.x + item.velocity.x + item.newimg.width > window.innerWidth || item.position.x + item.velocity.x < 0)
   item.velocity.x = -item.velocity.x;
