@@ -1,0 +1,10 @@
+/*change whole background color*/
+html{
+  background-color: grey;
+}
+
+/*change text color + background for button*/
+.btn{
+  color: yellow;
+  background-color: black;
+}
