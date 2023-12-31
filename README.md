@@ -1,4 +1,5 @@
 # Pacman
+A project for MITxPro
 
 Press the button, get a Pacman. 
 Each Pacman will appear in a random place within the window with a randomly selected velocity. 
